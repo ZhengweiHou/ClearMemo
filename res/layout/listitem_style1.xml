@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="@dimen/item_imgview_height"
+    android:background="@drawable/slidingmenu_item_selector"
+    android:orientation="vertical"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp" >
+
+        <!-- 内部布局 -->
+
+        <ImageView
+            android:id="@+id/memoitem_img_memotype"
+            android:layout_width="@dimen/item_imgview_height"
+            android:layout_height="@dimen/item_imgview_height"
+            android:layout_marginLeft="@dimen/item_imgview_margin"
+            android:layout_marginTop="@dimen/item_imgview_margin" />
+        <!-- 右边  其他 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/item_imgview_margin"
+            android:orientation="vertical" >
+
+            <!-- 上边 -->
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:collapseColumns="2"
+                android:stretchColumns="1" >
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- 标题部分 -->
+
+                    <TextView
+                        android:id="@+id/txtview_memoitem_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="title"
+                        android:textColor="#000000"
+                        android:textSize="@dimen/item_title_textsize" />
+                    <!-- 时间部分 -->
+
+                    <TextView
+                        android:id="@+id/txtview_memoitem_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:text="data"
+                        android:textColor="#838383" />
+                </TableRow>
+            </TableLayout>
+
+            <!-- 下边 -->
+
+            <TextView
+                android:id="@+id/txtview_memoitem_context"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/item_imgview_margin"
+                android:text="content"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

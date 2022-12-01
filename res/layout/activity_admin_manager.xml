@@ -1,0 +1,290 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminManagerActivity"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_title_height"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/manager_return_btn"
+            android:layout_width="@dimen/register_return_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/register_title_margintop"
+            android:src="@drawable/back" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/register_title_marginleft"
+                android:layout_marginTop="@dimen/title_margintop"
+                android:gravity="center"
+                android:text="@string/Manager_title"
+                android:textSize="@dimen/item_title_textsize"
+                 android:textColor="@color/theme_color"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/manager_nicheng1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/manager_boxlength"
+            android:onClick="onclick" >
+
+            <ImageView
+                android:id="@+id/manager_nicheng"
+                android:layout_width="@dimen/manager_imagewidth"
+                android:layout_height="@dimen/manager_imageheight"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/nicheng" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/manager_imagetitlelength"
+                android:layout_toRightOf="@id/manager_nicheng"
+                android:text="@string/manager_nicheng"
+                android:textSize="@dimen/manager_textSize" 
+                />
+
+            <TextView
+                android:id="@+id/manager_nicheng1_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="土豆"
+                android:textSize="@dimen/manager_textSize1" />
+        </RelativeLayout>
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_1"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/manager_usn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/manager_boxlength" 
+            android:onClick="onclick">
+
+            <ImageView
+                android:id="@+id/manager_usn"
+                android:layout_width="@dimen/manager_imagewidth"
+                android:layout_height="@dimen/manager_imageheight"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/account" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/manager_imagetitlelength"
+                android:layout_toRightOf="@id/manager_usn"
+                android:text="@string/manager_usn"
+                android:textSize="@dimen/manager_textSize"
+                 />
+
+            <TextView
+                android:id="@+id/manager_usn1_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="土豆"
+                android:textSize="@dimen/manager_textSize1" />
+        </RelativeLayout>
+        
+        
+       
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_1"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/manager_tel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/manager_boxlength" 
+            android:onClick="onclick">
+
+            <ImageView
+                android:id="@+id/manager_tel"
+                android:layout_width="@dimen/manager_imagewidth"
+                android:layout_height="@dimen/manager_imageheight"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/tel" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/manager_imagetitlelength"
+                android:layout_toRightOf="@id/manager_tel"
+                android:text="@string/manager_pel"
+                android:textSize="@dimen/manager_textSize"
+                 />
+
+            <TextView
+                android:id="@+id/manager_tel1_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="土豆"
+                android:textSize="@dimen/manager_textSize1" />
+        </RelativeLayout>
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_1"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/manager_sex1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/manager_boxlength" 
+            android:onClick="onclick">
+
+            <ImageView
+                android:id="@+id/manager_sex"
+                android:layout_width="@dimen/manager_imagewidth"
+                android:layout_height="@dimen/manager_imageheight"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/sex" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/manager_imagetitlelength"
+                android:layout_toRightOf="@id/manager_sex"
+                android:text="@string/manager_sex"
+                android:textSize="@dimen/manager_textSize" 
+                />
+
+            <TextView
+                android:id="@+id/manager_sex1_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="土豆"
+                android:textSize="@dimen/manager_textSize1" />
+        </RelativeLayout>
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_1"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/manager_address1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/manager_boxlength" 
+            android:onClick="onclick">
+
+            <ImageView
+                android:id="@+id/manager_address"
+                android:layout_width="@dimen/manager_imagewidth"
+                android:layout_height="@dimen/manager_imageheight"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/address" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/manager_imagetitlelength"
+                android:layout_toRightOf="@id/manager_address"
+                android:text="@string/manager_address"
+                android:textSize="@dimen/manager_textSize" 
+                />
+
+            <TextView
+                android:id="@+id/manager_address1_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="土豆"
+                android:textSize="@dimen/manager_textSize1" />
+        </RelativeLayout>
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line_1"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/manager_gexingqianming1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/manager_boxlength" 
+            android:onClick="onclick">
+
+            <ImageView
+                android:id="@+id/manager_gexingqianming"
+                android:layout_width="@dimen/manager_imagewidth"
+                android:layout_height="@dimen/manager_imageheight"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/gexingqianming" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/manager_imagetitlelength"
+                android:layout_toRightOf="@id/manager_gexingqianming"
+                android:text="@string/manager_gexingqianming"
+                android:textSize="@dimen/manager_textSize"
+                 />
+
+            <TextView
+                android:id="@+id/manager_gexingqianming1_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="土豆"
+                android:textSize="@dimen/manager_textSize1" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

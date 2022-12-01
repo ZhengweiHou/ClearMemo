@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_title_height" >
+
+        <ImageView
+            android:id="@+id/register_return_btn"
+            android:layout_width="@dimen/register_return_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/register_title_margintop"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/register_title_margintop_new"
+        android:gravity="center"
+        android:text="@string/register_title"
+        android:textColor="@color/theme_color"
+        android:textSize="@dimen/register_title_size" />
+
+    <EditText
+        android:id="@+id/register_victualname"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_kuan_height"
+        android:layout_marginLeft="@dimen/login_main_lf"
+        android:layout_marginRight="@dimen/login_main_lf"
+        android:layout_marginTop="@dimen/register_edt_1"
+        android:hint="@string/register_edit_victualname" />
+
+    <EditText
+        android:id="@+id/register_usn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_kuan_height"
+        android:layout_marginLeft="@dimen/login_main_lf"
+        android:layout_marginRight="@dimen/login_main_lf"
+        android:layout_marginTop="@dimen/register_edt_2"
+        android:hint="@string/admin_name" />
+
+    <EditText
+        android:id="@+id/register_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_kuan_height"
+        android:layout_marginLeft="@dimen/login_main_lf"
+        android:layout_marginRight="@dimen/login_main_lf"
+        android:layout_marginTop="@dimen/register_edt_2"
+        android:hint="@string/admin_password"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/register_surebtn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/register_kuan_height"
+        android:layout_marginLeft="@dimen/login_main_lf"
+        android:layout_marginRight="@dimen/login_main_lf"
+        android:layout_marginTop="@dimen/register_btn"
+        android:text="@string/register_btn_sure"
+        android:textSize="@dimen/register_btn_sure_textSize"
+        android:textColor="@color/darkgray" />
+
+</LinearLayout>

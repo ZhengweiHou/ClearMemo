@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="title_btn_normal">#000</drawable>
+    <drawable name="title_btn_pressed">#777</drawable>
+	<drawable name="logo_color">#ff6700</drawable>
+</resources>

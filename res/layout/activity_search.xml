@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <ImageView
+            android:id="@+id/search_imgb_searchbreak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="@dimen/register_title_margintop"
+            android:layout_marginRight="5dp"
+            android:onClick="titleonclick"
+            android:src="@drawable/back" />
+        
+        
+       
+
+        <ImageButton
+            android:id="@+id/search_imgb_searchinputdelet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="titleonclick"
+            android:src="@android:drawable/ic_input_delete" />
+
+        <EditText
+            android:id="@+id/search_edt_searchinput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_toLeftOf="@id/search_imgb_searchinputdelet"
+            android:layout_toRightOf="@id/search_imgb_searchbreak"
+            android:hint="输入搜索"
+            android:onClick="titleonclick" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/search_listview_searchmemo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            >
+        </ListView>
+    </RelativeLayout>
+
+</LinearLayout>

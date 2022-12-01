@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clear Memo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="admin_name">账号</string>
+    <string name="admin_password">密码</string>
+    <string name="left_pwd">忘记密码</string>
+    <string name="login_btnname">Sigin in</string>
+    <string name="login_forgetpwd">忘记密码</string>
+    <string name="login_tv_register">新用户？请注册账户</string>
+    <string name="register_title">注   册</string>
+    <string name="register_welcome">欢迎注册Clear Memo</string>
+    <string name="register_edit_victualname">昵称</string>
+    <string name="register_btn_sure">确 认 注 册</string>
+    
+    <string name="layout_text1">账户</string>
+    <string name="layout_text2">分类 :</string>
+    <string name="layout_text3">搜索</string>
+    <string name="layout_text4">关于我们</string>
+    <string name="layout_text5">注销</string>
+    <string name="layout_text6">退出</string>
+    
+    
+    <string name="main_title">我 的 备 忘</string>
+    
+    
+    
+    
+    <string name="Manager_title">用户信息</string>
+    <string name="manager_nicheng">昵称</string>
+    <string name="manager_usn">账号</string>
+    <string name="manager_password">密码</string>
+    <string name="manager_pel">电话</string>
+    <string name="manager_sex">性别</string>
+    <string name="manager_address">地区</string>
+    <string name="manager_gexingqianming">个性签名</string>
+    <string name="nicheng_title">昵称</string>
+    <string name="nicheng_content_hint">请输入您的昵称</string>
+    <string name="password_edit_first">请输入您的密码</string>
+    <string name="password_edit_second">请再次输入您的密码</string>
+    <string name="tel_edt_content">请输入您的电话</string>
+    <string name="address_edt_content">请输入您的地址</string>
+    <string name="gexingqianming_edt_content">请输入您的个性签名</string>
+    <string name="title_activity_forget_pwd">ForgetPwdActivity</string>
+    <string name="title_activity_nicheng">NichengActivity</string>
+    <string name="title_activity_password">PasswordActivity</string>
+    <string name="title_activity_pel">PelActivity</string>
+    <string name="title_activity_adress">AdressActivity</string>
+    <string name="title_activity_gexingqianming">GexingqianmingActivity</string>
+    <string name="about_title">关于我们</string>
+
+</resources>

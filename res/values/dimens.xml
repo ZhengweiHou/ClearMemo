@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="login_title_top">70dp</dimen>
+    <dimen name="login_title_size">40dp</dimen>
+    <dimen name="login_edt_btn_height">55dp</dimen>
+    <dimen name="login_edt_top1">60dp</dimen>
+    <dimen name="login_edt_top2">20dp</dimen>
+    <dimen name="login_btn_top">50dp</dimen>
+    <dimen name="login_Rw_bottom">30dp</dimen>
+    <dimen name="login_main_lf">20dp</dimen>
+    <dimen name="login_relative_mg_botoom">10dp</dimen>
+    
+    <dimen name="register_btl_height">40dp</dimen>
+    <dimen name="register_kuan_height">50dp</dimen>
+	<dimen name="register_title_size">34dp</dimen>
+	
+	<dimen name="register_title_margintop_new">20dp</dimen>
+	<dimen name="register_title_margintop">12dp</dimen>
+	<dimen name="register_title_marginleft">-40dp</dimen>
+	<dimen name="register_return_width">40dp</dimen>
+	<dimen name="register_welcome_size">12dp</dimen>
+	<dimen name="register_welcome_top">35dp</dimen>
+	<dimen name="register_welcome_left">10dp</dimen>
+	<dimen name="register_btn_sure_textSize">15dp</dimen>
+	
+	<dimen name="register_edt_1">30dp</dimen>
+	<dimen name="register_edt_2">15dp</dimen>
+	<dimen name="register_btn">20dp</dimen>
+	
+	<dimen name="item_layout_margin">100dp</dimen>
+	<dimen name="item_imgview_height">44dp</dimen>
+	<dimen name="item_imgview_margin">10dp</dimen>
+	<dimen name="item_title_textsize">18dp</dimen>
+	<dimen name="maintypeimgsize">40dp</dimen>
+	
+	<dimen name="layout_margin">20dp</dimen>
+	<dimen name="layout_imgview">50dp</dimen>
+	<dimen name="layout_relative_height">50dp</dimen>
+	<dimen name="layout_textsize">20dp</dimen>
+	
+	<dimen name="manager_textSize">18dp</dimen>
+	<dimen name="manager_textSize1">15dp</dimen>
+	<dimen name="manager_imagewidth">20dp</dimen>
+	<dimen name="manager_imageheight">40dp</dimen>
+	<dimen name="manager_imagetitlelength">10dp</dimen>
+	<dimen name="manager_boxlength">10dp</dimen>
+	
+	<dimen name="manger_fenlei_lf">15dp</dimen>
+	<dimen name="manger_fenlei_top">30dp</dimen>
+    
+    <dimen name="title_margintop">11dp</dimen>
+    
+    
+	<dimen name="activity_title_height">40dp</dimen>
+	<dimen name="activity_title_textsize">18dp</dimen>
+    
+    
+</resources>

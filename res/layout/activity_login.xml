@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/login_main_lf"
+    android:paddingRight="@dimen/login_main_lf"
+    tools:context=".LoginActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_title_top"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textSize="@dimen/login_title_size"
+            android:textColor="@drawable/logo_color" />
+
+        <EditText
+            android:id="@+id/login_usn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edt_btn_height"
+            android:layout_marginTop="@dimen/login_edt_top1"
+            android:hint="@string/admin_name"
+            />
+
+        <EditText
+            android:id="@+id/login_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edt_btn_height"
+            android:layout_marginTop="@dimen/login_edt_top2"
+            android:hint="@string/left_pwd"
+            android:password="true" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_edt_btn_height"
+            android:layout_marginTop="@dimen/login_btn_top"
+            android:onClick="click"
+            android:text="@string/login_btnname" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignParentBottom="true" 
+        android:layout_marginBottom="@dimen/login_relative_mg_botoom">
+
+        <TextView
+            android:id="@+id/txt_forgetpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:onClick="click"
+            android:text="@string/login_forgetpwd"
+            android:textColor="@drawable/logo_color" />
+
+        <TextView
+            android:id="@+id/txt_signUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="click"
+            android:text="@string/login_tv_register" 
+            android:textColor="@drawable/logo_color"/>
+    </RelativeLayout>
+
+</RelativeLayout>

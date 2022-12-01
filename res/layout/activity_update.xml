@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+         >
+
+        
+        <ImageView
+            android:id="@+id/update_imgView_back"
+            android:layout_width="@dimen/register_return_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/register_title_margintop"
+            android:src="@drawable/back"
+            android:onClick="onClick" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="修改"
+                android:layout_marginTop="@dimen/title_margintop"
+                android:textSize="@dimen/item_title_textsize"
+                android:textColor="@color/theme_color" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/update_imgView_save"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/save" 
+            android:onClick="onClick"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/update_edtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:gravity="top"
+        android:hint="Title"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="所在分类："
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <Gallery
+        android:id="@+id/update_type_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:spacing="0dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none" >
+
+        <EditText
+            android:id="@+id/update_edtContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="none"
+            android:gravity="top"
+            android:hint="请输入待办事项"
+            android:lines="10"
+            android:padding="5dp" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/update_linear01"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/linear_bg"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/clock" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal" >
+
+           
+
+            <TextView
+                android:id="@+id/update_time01"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="23:00"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" > "
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/update_time02"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="24:00"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
